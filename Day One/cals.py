@@ -1,6 +1,6 @@
-with open("./input.txt", "r") as handle:
+with open("./input.txt", "r") as data:
     calTotalList = []
-    myList = handle.read().split("\n\n")
+    myList = data.read().split("\n\n")
     for m in myList:
         elfsCals = m.split("\n")
         newList = []
