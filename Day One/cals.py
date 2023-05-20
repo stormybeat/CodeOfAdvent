@@ -1,4 +1,4 @@
-with open("./input.txt", "r") as data:
+with open("./Day One/input.txt", "r") as data:
     calTotalList = []
     myList = data.read().split("\n\n")
     for m in myList:
